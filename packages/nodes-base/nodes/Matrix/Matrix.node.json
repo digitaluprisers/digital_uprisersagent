@@ -1,0 +1,25 @@
+{
+	"node": "Digital Uprisers-nodes-base.matrix",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/matrix/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.matrix/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How to host virtual coffee breaks with Digital Uprisers",
+				"icon": "☕️",
+				"url": "https://digitaluprisers.com/blog/how-to-host-virtual-coffee-breaks-with-Digital Uprisers/"
+			}
+		]
+	}
+}

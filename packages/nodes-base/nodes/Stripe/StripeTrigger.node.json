@@ -1,0 +1,25 @@
+{
+	"node": "Digital Uprisers-nodes-base.stripeTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Finance & Accounting", "Sales"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/stripe/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/trigger-nodes/Digital Uprisers-nodes-base.stripetrigger/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Automate your customer journey with Digital Uprisers: An interview with Blent.ai",
+				"icon": "🚀",
+				"url": "https://digitaluprisers.com/blog/automate-your-customer-journey-with-Digital Uprisers-an-interview-with-blent-ai/"
+			}
+		]
+	}
+}

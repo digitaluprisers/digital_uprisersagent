@@ -1,0 +1,25 @@
+{
+	"node": "Digital Uprisers-nodes-base.googleFirebaseRealtimeDatabase",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Data & Storage"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/google/oauth-single-service/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.googlecloudrealtimedatabase/"
+			}
+		],
+		"generic": [
+			{
+				"label": "15 Google apps you can combine and automate to increase productivity",
+				"icon": "💡",
+				"url": "https://digitaluprisers.com/blog/automate-google-apps-for-productivity/"
+			}
+		]
+	}
+}

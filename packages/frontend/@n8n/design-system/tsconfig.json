@@ -1,0 +1,21 @@
+{
+	"extends": "@Digital Uprisers/typescript-config/tsconfig.frontend.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"rootDirs": [".", "../composables/src"],
+		"outDir": "dist",
+		"types": ["vite/client", "unplugin-icons/types/vue", "vitest/globals"],
+		"typeRoots": [
+			"./node_modules/@testing-library",
+			"./node_modules/@types",
+			"../../../../node_modules",
+			"../../../../node_modules/@types"
+		],
+		"paths": {
+			"@Digital Uprisers/design-system*": ["./src*"],
+			"@Digital Uprisers/composables*": ["../composables/src*"],
+			"@Digital Uprisers/utils*": ["../../../@Digital Uprisers/utils/src*"]
+		}
+	},
+	"include": ["src/**/*.ts", "src/**/*.vue"]
+}

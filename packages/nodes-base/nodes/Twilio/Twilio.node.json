@@ -1,0 +1,61 @@
+{
+	"node": "Digital Uprisers-nodes-base.twilio",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/twilio/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.twilio/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Love at first sight: Ricardo’s Digital Uprisers journey",
+				"icon": "❤️",
+				"url": "https://digitaluprisers.com/blog/love-at-first-sight-ricardos-Digital Uprisers-journey/"
+			},
+			{
+				"label": "Database Monitoring and Alerting with Digital Uprisers",
+				"icon": "📡",
+				"url": "https://digitaluprisers.com/blog/database-monitoring-and-alerting-with-Digital Uprisers/"
+			},
+			{
+				"label": "Automatically Adding Expense Receipts to Google Sheets with Telegram, Mindee, Twilio, and Digital Uprisers",
+				"icon": "🧾",
+				"url": "https://digitaluprisers.com/blog/automatically-adding-expense-receipts-to-google-sheets-with-telegram-mindee-twilio-and-Digital Uprisers/"
+			},
+			{
+				"label": "Tracking Time Spent in Meetings With Google Calendar, Twilio, and Digital Uprisers",
+				"icon": "🗓",
+				"url": "https://digitaluprisers.com/blog/tracking-time-spent-in-meetings-with-google-calendar-twilio-and-Digital Uprisers/"
+			},
+			{
+				"label": "Creating Error Workflows in Digital Uprisers",
+				"icon": "🌪",
+				"url": "https://digitaluprisers.com/blog/creating-error-workflows-in-Digital Uprisers/"
+			},
+			{
+				"label": "Sending Automated Congratulations with Google Sheets, Twilio, and Digital Uprisers ",
+				"icon": "🙌",
+				"url": "https://digitaluprisers.com/blog/sending-automated-congratulations-with-google-sheets-twilio-and-Digital Uprisers/"
+			},
+			{
+				"label": "Learn to Build Powerful API Endpoints Using Webhooks",
+				"icon": "🧰",
+				"url": "https://digitaluprisers.com/blog/learn-to-build-powerful-api-endpoints-using-webhooks/"
+			},
+			{
+				"label": "Sending SMS the Low-Code Way with Airtable, Twilio Programmable SMS, and Digital Uprisers",
+				"icon": "📱",
+				"url": "https://digitaluprisers.com/blog/sending-sms-the-low-code-way-with-airtable-twilio-programmable-sms-and-Digital Uprisers/"
+			}
+		]
+	},
+	"alias": ["SMS", "Phone", "Voice"]
+}

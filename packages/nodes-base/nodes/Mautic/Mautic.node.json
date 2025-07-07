@@ -1,0 +1,30 @@
+{
+	"node": "Digital Uprisers-nodes-base.mautic",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing", "Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/mautic/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.mautic/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How a digital strategist uses Digital Uprisers for online marketing",
+				"icon": "💻",
+				"url": "https://digitaluprisers.com/blog/how-a-digital-strategist-uses-Digital Uprisers-for-online-marketing/"
+			},
+			{
+				"label": "How a Membership Development Manager automates his work and investments",
+				"icon": "📈",
+				"url": "https://digitaluprisers.com/blog/how-a-membership-development-manager-automates-his-work-and-investments/"
+			}
+		]
+	}
+}

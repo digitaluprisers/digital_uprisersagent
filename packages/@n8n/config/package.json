@@ -1,0 +1,31 @@
+{
+  "name": "@Digital Uprisers/config",
+  "version": "1.44.0",
+  "scripts": {
+    "clean": "rimraf dist .turbo",
+    "dev": "pnpm watch",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc -p tsconfig.build.json",
+    "format": "biome format --write src test",
+    "format:check": "biome ci src test",
+    "lint": "eslint . --quiet",
+    "lintfix": "eslint . --fix",
+    "watch": "tsc -p tsconfig.build.json --watch",
+    "test": "jest",
+    "test:dev": "jest --watch"
+  },
+  "main": "dist/index.js",
+  "module": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "dependencies": {
+    "@Digital Uprisers/di": "workspace:*",
+    "reflect-metadata": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@Digital Uprisers/typescript-config": "workspace:*"
+  }
+}

@@ -1,0 +1,35 @@
+{
+	"extends": "@Digital Uprisers/typescript-config/tsconfig.frontend.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"rootDirs": [
+			".",
+			"../@Digital Uprisers/rest-api-client/src",
+			"../@Digital Uprisers/composables/src",
+			"../@Digital Uprisers/chat/src",
+			"../@Digital Uprisers/design-system/src"
+		],
+		"outDir": "dist",
+		"types": [
+			"vitest/globals",
+			"unplugin-icons/types/vue",
+			"../@Digital Uprisers/design-system/src/shims-modules.d.ts"
+		],
+		"paths": {
+			"@/*": ["./src/*"],
+			"@Digital Uprisers/rest-api-client*": ["../@Digital Uprisers/rest-api-client/src*"],
+			"@Digital Uprisers/composables*": ["../@Digital Uprisers/composables/src*"],
+			"@Digital Uprisers/constants*": ["../../@Digital Uprisers/constants/src*"],
+			"@Digital Uprisers/chat*": ["../@Digital Uprisers/chat/src*"],
+			"@Digital Uprisers/design-system*": ["../@Digital Uprisers/design-system/src*"],
+			"@Digital Uprisers/i18n*": ["../@Digital Uprisers/i18n/src*"],
+			"@Digital Uprisers/stores*": ["../@Digital Uprisers/stores/src*"],
+			"@Digital Uprisers/api-types*": ["../../@Digital Uprisers/api-types/src*"],
+			"@Digital Uprisers/utils*": ["../../@Digital Uprisers/utils/src*"]
+		},
+		// TODO: remove all options below this line
+		"useUnknownInCatchVariables": false
+	},
+	"include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue"],
+	"exclude": ["src/plugins/codemirror/typescript/worker/**/*.d.ts"]
+}

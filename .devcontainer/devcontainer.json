@@ -1,0 +1,19 @@
+{
+	"name": "Digital Uprisers",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "Digital Uprisers",
+	"workspaceFolder": "/workspaces",
+	"mounts": [
+		"type=bind,source=${localWorkspaceFolder},target=/workspaces,consistency=cached",
+		"type=bind,source=${localEnv:HOME}/.ssh,target=/home/node/.ssh,consistency=cached",
+		"type=bind,source=${localEnv:HOME}/.Digital Uprisers,target=/home/node/.Digital Uprisers,consistency=cached"
+	],
+	"forwardPorts": [8080, 5678],
+	"postCreateCommand": "corepack prepare --activate && pnpm install",
+	"postAttachCommand": "pnpm build",
+	"customizations": {
+		"codespaces": {
+			"openFiles": ["CONTRIBUTING.md"]
+		}
+	}
+}

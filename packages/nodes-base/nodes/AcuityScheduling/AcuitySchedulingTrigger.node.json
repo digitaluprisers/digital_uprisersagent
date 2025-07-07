@@ -1,0 +1,18 @@
+{
+	"node": "Digital Uprisers-nodes-base.acuitySchedulingTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Productivity"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/acuityScheduling/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/trigger-nodes/Digital Uprisers-nodes-base.acuityschedulingtrigger/"
+			}
+		]
+	}
+}

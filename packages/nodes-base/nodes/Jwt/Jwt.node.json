@@ -1,0 +1,19 @@
+{
+	"node": "Digital Uprisers-nodes-base.jwt",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development"],
+	"alias": ["Token", "Key", "JSON", "Payload", "Sign", "Verify", "Decode"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/jwt/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/core-nodes/Digital Uprisers-nodes-base.jwt/"
+			}
+		]
+	}
+}

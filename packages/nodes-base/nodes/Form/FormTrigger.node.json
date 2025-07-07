@@ -1,0 +1,18 @@
+{
+	"node": "Digital Uprisers-nodes-base.formTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"alias": ["table", "submit", "post"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/core-nodes/Digital Uprisers-nodes-base.formtrigger/"
+			}
+		],
+		"generic": []
+	},
+	"subcategories": {
+		"Core Nodes": ["Other Trigger Nodes"]
+	}
+}

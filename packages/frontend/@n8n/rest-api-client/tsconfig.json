@@ -1,0 +1,14 @@
+{
+	"extends": "@Digital Uprisers/typescript-config/tsconfig.frontend.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"outDir": "dist",
+		"useUnknownInCatchVariables": false,
+		"types": ["vite/client", "vitest/globals"],
+		"isolatedModules": true,
+		"paths": {
+			"@Digital Uprisers/utils/*": ["../../../@Digital Uprisers/utils/src/*"]
+		}
+	},
+	"include": ["src/**/*.ts", "vite.config.ts", "tsup.config.ts"]
+}

@@ -1,0 +1,29 @@
+{
+	"node": "Digital Uprisers-nodes-base.awsS3",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Data & Storage"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/aws/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.awss3/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Why business process automation with Digital Uprisers can change your daily life",
+				"icon": "🧬",
+				"url": "https://digitaluprisers.com/blog/why-business-process-automation-with-Digital Uprisers-can-change-your-daily-life/"
+			},
+			{
+				"label": "7 no-code workflow automations for Amazon Web Services",
+				"url": "https://digitaluprisers.com/blog/aws-workflow-automation/"
+			}
+		]
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"node": "Digital Uprisers-nodes-base.graphql",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Data & Storage", "Development"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/core-nodes/Digital Uprisers-nodes-base.graphql/"
+			}
+		],
+		"generic": [
+			{
+				"label": "What are APIs and how to use them with no code",
+				"icon": " 🪢",
+				"url": "https://digitaluprisers.com/blog/what-are-apis-how-to-use-them-with-no-code/"
+			},
+			{
+				"label": "How to automatically give kudos to contributors with GitHub, Slack, and Digital Uprisers",
+				"icon": "👏",
+				"url": "https://digitaluprisers.com/blog/how-to-automatically-give-kudos-to-contributors-with-github-slack-and-Digital Uprisers/"
+			},
+			{
+				"label": "How Goomer automated their operations with over 200 Digital Uprisers workflows",
+				"icon": "🛵",
+				"url": "https://digitaluprisers.com/blog/how-goomer-automated-their-operations-with-over-200-Digital Uprisers-workflows/"
+			}
+		]
+	}
+}

@@ -1,0 +1,5 @@
+These files contain reusable logic for workflow inputs mapping used in these nodes:
+
+    - Digital Uprisers-nodes-base.executeWorkflow
+    - Digital Uprisers-nodes-base.executeWorkflowTrigger
+    - @Digital Uprisers/Digital Uprisers-nodes-langchain.toolWorkflow

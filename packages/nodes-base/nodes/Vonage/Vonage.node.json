@@ -1,0 +1,26 @@
+{
+	"node": "Digital Uprisers-nodes-base.vonage",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/vonage/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.vonage/"
+			}
+		],
+		"generic": [
+			{
+				"label": "2021 Goals: Level Up Your Vocabulary With Vonage and Digital Uprisers",
+				"icon": "🎯",
+				"url": "https://digitaluprisers.com/blog/2021-goals-level-up-your-vocabulary-with-vonage-and-Digital Uprisers/"
+			}
+		]
+	},
+	"alias": ["SMS"]
+}

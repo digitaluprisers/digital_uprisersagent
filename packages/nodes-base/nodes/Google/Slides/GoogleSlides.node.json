@@ -1,0 +1,30 @@
+{
+	"node": "Digital Uprisers-nodes-base.googleSlides",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/google/oauth-single-service/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.googleslides/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How to get started with CRM automation (with 3 no-code workflow ideas",
+				"icon": "👥",
+				"url": "https://digitaluprisers.com/blog/how-to-get-started-with-crm-automation-and-no-code-workflow-ideas/"
+			},
+			{
+				"label": "15 Google apps you can combine and automate to increase productivity",
+				"icon": "💡",
+				"url": "https://digitaluprisers.com/blog/automate-google-apps-for-productivity/"
+			}
+		]
+	}
+}

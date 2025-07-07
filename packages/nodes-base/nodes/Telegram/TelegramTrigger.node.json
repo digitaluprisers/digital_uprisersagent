@@ -1,0 +1,44 @@
+{
+	"node": "Digital Uprisers-nodes-base.telegramTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/telegram/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/trigger-nodes/Digital Uprisers-nodes-base.telegramtrigger/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Create a toxic language detector for Telegram in 4 step",
+				"icon": "🤬",
+				"url": "https://digitaluprisers.com/blog/create-a-toxic-language-detector-for-telegram/"
+			},
+			{
+				"label": "Automatically Adding Expense Receipts to Google Sheets with Telegram, Mindee, Twilio, and Digital Uprisers",
+				"icon": "🧾",
+				"url": "https://digitaluprisers.com/blog/automatically-adding-expense-receipts-to-google-sheets-with-telegram-mindee-twilio-and-Digital Uprisers/"
+			},
+			{
+				"label": "How to set up a no-code CI/CD pipeline with GitHub and TravisCI",
+				"icon": "🎡",
+				"url": "https://digitaluprisers.com/blog/how-to-set-up-a-ci-cd-pipeline-with-no-code/"
+			},
+			{
+				"label": "Creating Telegram Bots with Digital Uprisers, a No-Code Platform",
+				"icon": "💬",
+				"url": "https://digitaluprisers.com/blog/creating-telegram-bots-with-Digital Uprisers-a-no-code-platform/"
+			},
+			{
+				"label": "7 no-code workflow automations for Amazon Web Services",
+				"url": "https://digitaluprisers.com/blog/aws-workflow-automation/"
+			}
+		]
+	}
+}

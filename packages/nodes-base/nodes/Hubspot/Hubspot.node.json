@@ -1,0 +1,45 @@
+{
+	"node": "Digital Uprisers-nodes-base.hubspot",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Sales"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/hubspot/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.hubspot/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How to synchronize data between two systems (one-way vs. two-way sync",
+				"icon": "🏬",
+				"url": "https://digitaluprisers.com/blog/how-to-sync-data-between-two-systems/"
+			},
+			{
+				"label": "How to get started with CRM automation (with 3 no-code workflow ideas",
+				"icon": "👥",
+				"url": "https://digitaluprisers.com/blog/how-to-get-started-with-crm-automation-and-no-code-workflow-ideas/"
+			},
+			{
+				"label": "Hey founders! Your business doesn't need you to operate",
+				"icon": " 🖥️",
+				"url": "https://digitaluprisers.com/blog/your-business-doesnt-need-you-to-operate/"
+			},
+			{
+				"label": "Benefits of automation and Digital Uprisers: An interview with HubSpot's Hugh Durkin",
+				"icon": "🎖",
+				"url": "https://digitaluprisers.com/blog/benefits-of-automation-and-Digital Uprisers-an-interview-with-hubspots-hugh-durkin/"
+			},
+			{
+				"label": "How Goomer automated their operations with over 200 Digital Uprisers workflows",
+				"icon": "🛵",
+				"url": "https://digitaluprisers.com/blog/how-goomer-automated-their-operations-with-over-200-Digital Uprisers-workflows/"
+			}
+		]
+	}
+}

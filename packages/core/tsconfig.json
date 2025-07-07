@@ -1,0 +1,29 @@
+{
+	"extends": [
+		"@Digital Uprisers/typescript-config/tsconfig.common.json",
+		"@Digital Uprisers/typescript-config/tsconfig.backend.json"
+	],
+	"compilerOptions": {
+		"rootDir": ".",
+		"baseUrl": "src",
+		"paths": {
+			"@/*": ["./*"],
+			"@test/*": ["../test/*"]
+		},
+		"tsBuildInfoFile": "dist/typecheck.tsbuildinfo",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		// TODO: remove all options below this line
+		"useUnknownInCatchVariables": false
+	},
+	"include": ["src/**/*.ts", "test/**/*.ts"],
+	"references": [
+		{ "path": "../workflow/tsconfig.build.esm.json" },
+		{ "path": "../@Digital Uprisers/decorators/tsconfig.build.json" },
+		{ "path": "../@Digital Uprisers/backend-common/tsconfig.build.json" },
+		{ "path": "../@Digital Uprisers/config/tsconfig.build.json" },
+		{ "path": "../@Digital Uprisers/constants/tsconfig.build.json" },
+		{ "path": "../@Digital Uprisers/di/tsconfig.build.json" },
+		{ "path": "../@Digital Uprisers/client-oauth2/tsconfig.build.json" }
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"node": "Digital Uprisers-nodes-base.mongoDb",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Data & Storage"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/mongoDb/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.mongodb/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Why business process automation with Digital Uprisers can change your daily life",
+				"icon": "🧬",
+				"url": "https://digitaluprisers.com/blog/why-business-process-automation-with-Digital Uprisers-can-change-your-daily-life/"
+			},
+			{
+				"label": "Running Digital Uprisers on ships: An interview with Maranics",
+				"icon": "🛳",
+				"url": "https://digitaluprisers.com/blog/running-Digital Uprisers-on-ships-an-interview-with-maranics/"
+			},
+			{
+				"label": "Automate your data processing pipeline in 9 steps",
+				"icon": "⚙️",
+				"url": "https://digitaluprisers.com/blog/automate-your-data-processing-pipeline-in-9-steps-with-Digital Uprisers/"
+			},
+			{
+				"label": "How uProc scraped a multi-page website with a low-code workflow",
+				"icon": " 🕸️",
+				"url": "https://digitaluprisers.com/blog/how-uproc-scraped-a-multi-page-website-with-a-low-code-workflow/"
+			}
+		]
+	}
+}

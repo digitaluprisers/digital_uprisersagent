@@ -1,0 +1,24 @@
+{
+	"node": "Digital Uprisers-nodes-base.awsComprehend",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/aws/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.awscomprehend/"
+			}
+		],
+		"generic": [
+			{
+				"label": "7 no-code workflow automations for Amazon Web Services",
+				"url": "https://digitaluprisers.com/blog/aws-workflow-automation/"
+			}
+		]
+	}
+}

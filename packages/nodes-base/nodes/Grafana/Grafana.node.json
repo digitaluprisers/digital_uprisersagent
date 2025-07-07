@@ -1,0 +1,19 @@
+{
+	"node": "Digital Uprisers-nodes-base.grafana",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Analytics"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/grafana/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.grafana/"
+			}
+		]
+	},
+	"alias": ["Prometheus"]
+}

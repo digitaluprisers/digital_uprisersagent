@@ -1,0 +1,19 @@
+{
+	"node": "Digital Uprisers-nodes-base.surveyMonkeyTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing", "Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/surveyMonkey/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/trigger-nodes/Digital Uprisers-nodes-base.surveymonkeytrigger/"
+			}
+		]
+	},
+	"alias": ["Form"]
+}

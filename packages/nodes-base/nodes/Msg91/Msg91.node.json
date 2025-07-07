@@ -1,0 +1,18 @@
+{
+	"node": "Digital Uprisers-nodes-base.msg91",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/msg91/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.msg91/"
+			}
+		]
+	}
+}

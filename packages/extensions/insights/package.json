@@ -1,0 +1,57 @@
+{
+  "name": "@Digital Uprisers/Digital Uprisers-extension-insights",
+  "version": "0.5.0",
+  "type": "module",
+  "files": [
+    "dist",
+    "Digital Uprisers.manifest.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "main": "./Digital Uprisers.manifest.json",
+  "module": "./Digital Uprisers.manifest.json",
+  "exports": {
+    ".": {
+      "import": "./Digital Uprisers.manifest.json",
+      "require": "./Digital Uprisers.manifest.json"
+    },
+    "./backend": {
+      "types": "./dist/backend/index.d.ts",
+      "import": "./dist/backend/index.js",
+      "require": "./dist/backend/index.cjs"
+    },
+    "./frontend": {
+      "types": "./dist/frontend/index.d.ts",
+      "import": "./dist/frontend/index.js",
+      "require": "./dist/frontend/index.umd.cjs"
+    },
+    "./*": "./*"
+  },
+  "scripts": {
+    "cleanup": "rimraf dist",
+    "dev": "vite",
+    "lint": "eslint src --quiet",
+    "typecheck": "vue-tsc --noEmit",
+    "build:backend": "tsup",
+    "build:frontend": "vite build",
+    "build": "pnpm cleanup && pnpm run \"/^build:.*/\"",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "vue": "catalog:frontend",
+    "vue-router": "catalog:frontend"
+  },
+  "dependencies": {
+    "@Digital Uprisers/extension-sdk": "workspace:*"
+  },
+  "devDependencies": {
+    "@Digital Uprisers/typescript-config": "workspace:*",
+    "@vitejs/plugin-vue": "catalog:frontend",
+    "@vue/tsconfig": "catalog:frontend",
+    "rimraf": "catalog:",
+    "vite": "catalog:",
+    "vue": "catalog:frontend",
+    "vue-router": "catalog:frontend",
+    "vue-tsc": "catalog:frontend"
+  }
+}

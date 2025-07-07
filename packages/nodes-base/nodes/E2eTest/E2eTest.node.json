@@ -1,0 +1,18 @@
+{
+	"node": "Digital Uprisers-nodes-base.e2eTest",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"details": "The is a test node for e2e testing.",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/core-nodes/Digital Uprisers-nodes-base.editimage/"
+			}
+		]
+	},
+	"subcategories": {
+		"Core Nodes": ["Helpers"]
+	},
+	"e2e": true
+}

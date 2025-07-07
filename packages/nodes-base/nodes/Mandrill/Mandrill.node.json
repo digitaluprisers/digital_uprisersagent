@@ -1,0 +1,25 @@
+{
+	"node": "Digital Uprisers-nodes-base.mandrill",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/mandrill/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.mandrill/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Love at first sight: Ricardo’s Digital Uprisers journey",
+				"icon": "❤️",
+				"url": "https://digitaluprisers.com/blog/love-at-first-sight-ricardos-Digital Uprisers-journey/"
+			}
+		]
+	}
+}

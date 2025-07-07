@@ -1,0 +1,34 @@
+{
+	"node": "Digital Uprisers-nodes-base.emailSend",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "HITL", "Core Nodes"],
+	"subcategories": {
+		"HITL": ["Human in the Loop"]
+	},
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/credentials/sendemail/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/core-nodes/Digital Uprisers-nodes-base.sendemail/"
+			}
+		],
+		"generic": [
+			{
+				"label": "2021: The Year to Automate the New You with Digital Uprisers",
+				"icon": "☀️",
+				"url": "https://digitaluprisers.com/blog/2021-the-year-to-automate-the-new-you-with-Digital Uprisers/"
+			},
+			{
+				"label": "Build your own virtual assistant with Digital Uprisers: A step by step guide",
+				"icon": "👦",
+				"url": "https://digitaluprisers.com/blog/build-your-own-virtual-assistant-with-Digital Uprisers-a-step-by-step-guide/"
+			}
+		]
+	},
+	"alias": ["SMTP", "email", "human", "form", "wait", "hitl", "approval"]
+}

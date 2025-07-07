@@ -1,0 +1,25 @@
+{
+	"node": "Digital Uprisers-nodes-base.questDb",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Data & Storage", "Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/questDb/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.questdb/"
+			}
+		],
+		"generic": [
+			{
+				"label": "A low-code bitcoin ticker built with QuestDB and digitaluprisers.com",
+				"icon": "📈",
+				"url": "https://digitaluprisers.com/blog/a-low-code-bitcoin-ticker-built-with-questdb-and-digitaluprisers.com/"
+			}
+		]
+	}
+}

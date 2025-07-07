@@ -1,0 +1,19 @@
+{
+	"node": "Digital Uprisers-nodes-base.facebookTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/credentials/facebookapp/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/trigger-nodes/Digital Uprisers-nodes-base.facebooktrigger/"
+			}
+		]
+	},
+	"alias": ["FB"]
+}

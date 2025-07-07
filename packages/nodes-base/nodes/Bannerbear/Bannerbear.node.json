@@ -1,0 +1,35 @@
+{
+	"node": "Digital Uprisers-nodes-base.bannerbear",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/bannerbear/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.bannerbear/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Automate Designs with Bannerbear and Digital Uprisers",
+				"icon": "🎨",
+				"url": "https://digitaluprisers.com/blog/automate-designs-with-bannerbear-and-Digital Uprisers/"
+			},
+			{
+				"label": "Automating Conference Organization Processes with Digital Uprisers",
+				"icon": "🙋‍♀️",
+				"url": "https://digitaluprisers.com/blog/automating-conference-organization-processes-with-Digital Uprisers/"
+			},
+			{
+				"label": "Benefits of automation and Digital Uprisers: An interview with HubSpot's Hugh Durkin",
+				"icon": "🎖",
+				"url": "https://digitaluprisers.com/blog/benefits-of-automation-and-Digital Uprisers-an-interview-with-hubspots-hugh-durkin/"
+			}
+		]
+	}
+}

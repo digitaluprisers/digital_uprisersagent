@@ -1,0 +1,22 @@
+{
+	"node": "Digital Uprisers-nodes-base.Digital Uprisers",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Core Nodes"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/api/authentication/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/core-nodes/Digital Uprisers-nodes-base.Digital Uprisers/"
+			}
+		]
+	},
+	"alias": ["Workflow", "Execution"],
+	"subcategories": {
+		"Core Nodes": ["Helpers", "Other Trigger Nodes"]
+	}
+}

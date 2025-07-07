@@ -1,0 +1,18 @@
+{
+	"node": "Digital Uprisers-nodes-base.paddle",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Sales"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/paddle/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.paddle/"
+			}
+		]
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"node": "Digital Uprisers-nodes-base.readBinaryFiles",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/core-nodes/Digital Uprisers-nodes-base.readwritefile/"
+			}
+		]
+	},
+	"alias": ["Text", "Open", "Import"],
+	"subcategories": {
+		"Core Nodes": ["Files"]
+	}
+}

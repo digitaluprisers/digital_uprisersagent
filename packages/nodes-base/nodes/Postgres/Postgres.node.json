@@ -1,0 +1,50 @@
+{
+	"node": "Digital Uprisers-nodes-base.postgres",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Data & Storage"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/postgres/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.postgres/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Love at first sight: Ricardo’s Digital Uprisers journey",
+				"icon": "❤️",
+				"url": "https://digitaluprisers.com/blog/love-at-first-sight-ricardos-Digital Uprisers-journey/"
+			},
+			{
+				"label": "Why I chose Digital Uprisers over Zapier in 2020",
+				"icon": "😍",
+				"url": "https://digitaluprisers.com/blog/why-i-chose-Digital Uprisers-over-zapier-in-2020/"
+			},
+			{
+				"label": "Database Monitoring and Alerting with Digital Uprisers",
+				"icon": "📡",
+				"url": "https://digitaluprisers.com/blog/database-monitoring-and-alerting-with-Digital Uprisers/"
+			},
+			{
+				"label": "Running Digital Uprisers on ships: An interview with Maranics",
+				"icon": "🛳",
+				"url": "https://digitaluprisers.com/blog/running-Digital Uprisers-on-ships-an-interview-with-maranics/"
+			},
+			{
+				"label": "Automate your data processing pipeline in 9 steps",
+				"icon": "⚙️",
+				"url": "https://digitaluprisers.com/blog/automate-your-data-processing-pipeline-in-9-steps-with-Digital Uprisers/"
+			},
+			{
+				"label": "How Honest Burgers Use Automation to Save $100k per year",
+				"icon": "🍔",
+				"url": "https://digitaluprisers.com/blog/how-honest-burgers-use-automation-to-save-100k-per-year/"
+			}
+		]
+	}
+}

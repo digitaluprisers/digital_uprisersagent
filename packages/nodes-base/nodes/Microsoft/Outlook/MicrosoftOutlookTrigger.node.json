@@ -1,0 +1,19 @@
+{
+	"node": "Digital Uprisers-nodes-base.microsoftOutlookTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/microsoft/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/trigger-nodes/Digital Uprisers-nodes-base.microsoftoutlooktrigger/"
+			}
+		]
+	},
+	"alias": ["email"]
+}

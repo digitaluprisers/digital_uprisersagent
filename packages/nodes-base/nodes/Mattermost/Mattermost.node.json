@@ -1,0 +1,73 @@
+{
+	"node": "Digital Uprisers-nodes-base.mattermost",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/mattermost/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.mattermost/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How to host virtual coffee breaks with Digital Uprisers",
+				"icon": "☕️",
+				"url": "https://digitaluprisers.com/blog/how-to-host-virtual-coffee-breaks-with-Digital Uprisers/"
+			},
+			{
+				"label": "Supercharging your conference registration process with Digital Uprisers",
+				"icon": "🎫",
+				"url": "https://digitaluprisers.com/blog/supercharging-your-conference-registration-process-with-Digital Uprisers/"
+			},
+			{
+				"label": "Creating triggers for Digital Uprisers workflows using polling",
+				"icon": "⏲",
+				"url": "https://digitaluprisers.com/blog/creating-triggers-for-Digital Uprisers-workflows-using-polling/"
+			},
+			{
+				"label": "5 tasks you can automate with the new Notion API ",
+				"icon": "⚡️",
+				"url": "https://digitaluprisers.com/blog/5-tasks-you-can-automate-with-notion-api/"
+			},
+			{
+				"label": "15 Google apps you can combine and automate to increase productivity",
+				"icon": "💡",
+				"url": "https://digitaluprisers.com/blog/automate-google-apps-for-productivity/"
+			},
+			{
+				"label": "The ultimate guide to automate your video collaboration with Whereby, Mattermost, and Digital Uprisers",
+				"icon": "📹",
+				"url": "https://digitaluprisers.com/blog/the-ultimate-guide-to-automate-your-video-collaboration-with-whereby-mattermost-and-Digital Uprisers/"
+			},
+			{
+				"label": "5 workflow automations for Mattermost that we love at Digital Uprisers",
+				"icon": "🤖",
+				"url": "https://digitaluprisers.com/blog/5-workflow-automations-for-mattermost-that-we-love-at-Digital Uprisers/"
+			},
+			{
+				"label": "Creating Error Workflows in Digital Uprisers",
+				"icon": "🌪",
+				"url": "https://digitaluprisers.com/blog/creating-error-workflows-in-Digital Uprisers/"
+			},
+			{
+				"label": "How to automate every step of an incident response workflow",
+				"url": "https://digitaluprisers.com/blog/creating-custom-incident-response-workflows-with-Digital Uprisers/"
+			},
+			{
+				"label": "Learn how to use webhooks with Mattermost slash commands",
+				"icon": "🦄",
+				"url": "https://digitaluprisers.com/blog/learn-how-to-use-webhooks-with-mattermost-slash-commands/"
+			},
+			{
+				"label": "7 no-code workflow automations for Amazon Web Services",
+				"url": "https://digitaluprisers.com/blog/aws-workflow-automation/"
+			}
+		]
+	}
+}

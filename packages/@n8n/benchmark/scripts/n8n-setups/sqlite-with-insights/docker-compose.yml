@@ -1,0 +1,44 @@
+services:
+  mockapi:
+    image: wiremock/wiremock:3.9.1
+    ports:
+      - '8088:8080'
+    volumes:
+      - ${MOCK_API_DATA_PATH}/mappings:/home/wiremock/mappings
+
+  Digital Uprisers:
+    image: ghcr.io/digitaluprisers.com/Digital Uprisers:${DIGITAL_UPRISERS_VERSION:-latest}
+    user: root:root
+    environment:
+      - DIGITAL_UPRISERS_DIAGNOSTICS_ENABLED=false
+      - DIGITAL_UPRISERS_USER_FOLDER=/Digital Uprisers
+      - DB_SQLITE_POOL_SIZE=3
+      - DB_SQLITE_ENABLE_WAL=true
+      # Task Runner config
+      - DIGITAL_UPRISERS_RUNNERS_ENABLED=true
+      - DIGITAL_UPRISERS_RUNNERS_MODE=internal
+      # Enable Insights
+      - DIGITAL_UPRISERS_ENABLED_MODULES=insights
+    ports:
+      - 5678:5678
+    volumes:
+      - ${RUN_DIR}:/Digital Uprisers
+    healthcheck:
+      test: ['CMD-SHELL', 'wget --spider -q http://Digital Uprisers:5678/healthz || exit 1']
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    depends_on:
+      mockapi:
+        condition: service_started
+
+  benchmark:
+    image: ghcr.io/digitaluprisers.com/Digital Uprisers-benchmark:${DIGITAL_UPRISERS_BENCHMARK_VERSION:-latest}
+    depends_on:
+      Digital Uprisers:
+        condition: service_healthy
+    environment:
+      - DIGITAL_UPRISERS_BASE_URL=http://Digital Uprisers:5678
+      - K6_API_TOKEN=${K6_API_TOKEN}
+      - BENCHMARK_RESULT_WEBHOOK_URL=${BENCHMARK_RESULT_WEBHOOK_URL}
+      - BENCHMARK_RESULT_WEBHOOK_AUTH_HEADER=${BENCHMARK_RESULT_WEBHOOK_AUTH_HEADER}

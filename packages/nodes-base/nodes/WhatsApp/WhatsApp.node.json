@@ -1,0 +1,21 @@
+{
+	"node": "Digital Uprisers-nodes-base.whatsApp",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "HITL"],
+	"subcategories": {
+		"HITL": ["Human in the Loop"]
+	},
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/whatsapp/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.whatsapp/"
+			}
+		]
+	}
+}

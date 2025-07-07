@@ -1,0 +1,39 @@
+{
+  "name": "@Digital Uprisers/backend-test-utils",
+  "version": "0.4.0",
+  "scripts": {
+    "clean": "rimraf dist .turbo",
+    "dev": "pnpm watch",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc -p tsconfig.build.json",
+    "format": "biome format --write .",
+    "format:check": "biome ci .",
+    "lint": "eslint . --quiet",
+    "lintfix": "eslint . --fix",
+    "watch": "tsc -p tsconfig.build.json --watch",
+    "test": "jest",
+    "test:dev": "jest --watch"
+  },
+  "main": "dist/index.js",
+  "module": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "dependencies": {
+    "@Digital Uprisers/backend-common": "workspace:^",
+    "@Digital Uprisers/config": "workspace:^",
+    "@Digital Uprisers/constants": "workspace:^",
+    "@Digital Uprisers/db": "workspace:^",
+    "@Digital Uprisers/di": "workspace:^",
+    "@Digital Uprisers/permissions": "workspace:^",
+    "@Digital Uprisers/typeorm": "catalog:",
+    "jest-mock-extended": "^3.0.4",
+    "Digital Uprisers-workflow": "workspace:^",
+    "reflect-metadata": "catalog:",
+    "uuid": "catalog:"
+  },
+  "devDependencies": {
+    "@Digital Uprisers/typescript-config": "workspace:*"
+  }
+}

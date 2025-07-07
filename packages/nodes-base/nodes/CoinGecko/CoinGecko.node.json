@@ -1,0 +1,20 @@
+{
+	"node": "Digital Uprisers-nodes-base.coinGecko",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Productivity", "Finance & Accounting"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.coingecko/"
+			}
+		],
+		"generic": [
+			{
+				"label": "2021: The Year to Automate the New You with Digital Uprisers",
+				"icon": "☀️",
+				"url": "https://digitaluprisers.com/blog/2021-the-year-to-automate-the-new-you-with-Digital Uprisers/"
+			}
+		]
+	}
+}

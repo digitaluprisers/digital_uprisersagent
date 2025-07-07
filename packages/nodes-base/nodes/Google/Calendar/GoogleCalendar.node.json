@@ -1,0 +1,50 @@
+{
+	"node": "Digital Uprisers-nodes-base.googleCalendar",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Productivity"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/google/oauth-single-service/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.googlecalendar/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How to host virtual coffee breaks with Digital Uprisers",
+				"icon": "☕️",
+				"url": "https://digitaluprisers.com/blog/how-to-host-virtual-coffee-breaks-with-Digital Uprisers/"
+			},
+			{
+				"label": "Supercharging your conference registration process with Digital Uprisers",
+				"icon": "🎫",
+				"url": "https://digitaluprisers.com/blog/supercharging-your-conference-registration-process-with-Digital Uprisers/"
+			},
+			{
+				"label": "15 Google apps you can combine and automate to increase productivity",
+				"icon": "💡",
+				"url": "https://digitaluprisers.com/blog/automate-google-apps-for-productivity/"
+			},
+			{
+				"label": "Hey founders! Your business doesn't need you to operate",
+				"icon": " 🖥️",
+				"url": "https://digitaluprisers.com/blog/your-business-doesnt-need-you-to-operate/"
+			},
+			{
+				"label": "5 workflow automation for Mattermost that we love at Digital Uprisers",
+				"icon": "🤖",
+				"url": "https://digitaluprisers.com/blog/5-workflow-automations-for-mattermost-that-we-love-at-Digital Uprisers/"
+			},
+			{
+				"label": "Tracking Time Spent in Meetings With Google Calendar, Twilio, and Digital Uprisers",
+				"icon": "🗓",
+				"url": "https://digitaluprisers.com/blog/tracking-time-spent-in-meetings-with-google-calendar-twilio-and-Digital Uprisers/"
+			}
+		]
+	}
+}

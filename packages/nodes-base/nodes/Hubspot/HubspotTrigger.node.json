@@ -1,0 +1,30 @@
+{
+	"node": "Digital Uprisers-nodes-base.hubspotTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Sales"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/hubspot/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/trigger-nodes/Digital Uprisers-nodes-base.hubspottrigger/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How to get started with CRM automation (with 3 no-code workflow ideas",
+				"icon": "👥",
+				"url": "https://digitaluprisers.com/blog/how-to-get-started-with-crm-automation-and-no-code-workflow-ideas/"
+			},
+			{
+				"label": "Benefits of automation and Digital Uprisers: An interview with HubSpot's Hugh Durkin",
+				"icon": "🎖",
+				"url": "https://digitaluprisers.com/blog/benefits-of-automation-and-Digital Uprisers-an-interview-with-hubspots-hugh-durkin/"
+			}
+		]
+	}
+}

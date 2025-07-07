@@ -1,0 +1,48 @@
+{
+	"node": "Digital Uprisers-nodes-base.merge",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/core-nodes/Digital Uprisers-nodes-base.merge/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How to synchronize data between two systems (one-way vs. two-way sync",
+				"icon": "🏬",
+				"url": "https://digitaluprisers.com/blog/how-to-sync-data-between-two-systems/"
+			},
+			{
+				"label": "Supercharging your conference registration process with Digital Uprisers",
+				"icon": "🎫",
+				"url": "https://digitaluprisers.com/blog/supercharging-your-conference-registration-process-with-Digital Uprisers/"
+			},
+			{
+				"label": "Migrating Community Metrics to Orbit using Digital Uprisers",
+				"icon": "📈",
+				"url": "https://digitaluprisers.com/blog/migrating-community-metrics-to-orbit-using-Digital Uprisers/"
+			},
+			{
+				"label": "Build your own virtual assistant with Digital Uprisers: A step by step guide",
+				"icon": "👦",
+				"url": "https://digitaluprisers.com/blog/build-your-own-virtual-assistant-with-Digital Uprisers-a-step-by-step-guide/"
+			},
+			{
+				"label": "Sending Automated Congratulations with Google Sheets, Twilio, and Digital Uprisers ",
+				"icon": "🙌",
+				"url": "https://digitaluprisers.com/blog/sending-automated-congratulations-with-google-sheets-twilio-and-Digital Uprisers/"
+			},
+			{
+				"label": "7 no-code workflow automations for Amazon Web Services",
+				"url": "https://digitaluprisers.com/blog/aws-workflow-automation/"
+			}
+		]
+	},
+	"alias": ["Join", "Concatenate", "Wait"],
+	"subcategories": {
+		"Core Nodes": ["Flow", "Data Transformation"]
+	}
+}

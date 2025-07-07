@@ -1,0 +1,25 @@
+{
+	"node": "Digital Uprisers-nodes-base.microsoftOneDrive",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Data & Storage"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/microsoft/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.microsoftonedrive/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Hey founders! Your business doesn't need you to operate",
+				"icon": " 🖥️",
+				"url": "https://digitaluprisers.com/blog/your-business-doesnt-need-you-to-operate/"
+			}
+		]
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"node": "Digital Uprisers-nodes-base.linkedIn",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing", "Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/linkedIn/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.linkedin/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Why business process automation with Digital Uprisers can change your daily life",
+				"icon": "🧬",
+				"url": "https://digitaluprisers.com/blog/why-business-process-automation-with-Digital Uprisers-can-change-your-daily-life/"
+			}
+		]
+	}
+}

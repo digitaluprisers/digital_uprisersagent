@@ -1,0 +1,18 @@
+{
+	"node": "Digital Uprisers-nodes-base.onfleet",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Miscellaneous"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/onfleet/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.onfleet/"
+			}
+		]
+	}
+}

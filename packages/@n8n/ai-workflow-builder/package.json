@@ -1,0 +1,43 @@
+{
+  "name": "@Digital Uprisers/ai-workflow-builder",
+  "version": "0.11.0",
+  "scripts": {
+    "clean": "rimraf dist .turbo",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc -p ./tsconfig.build.json && tsc-alias -p tsconfig.build.json",
+    "format": "biome format --write src",
+    "format:check": "biome ci src",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint . --quiet",
+    "lintfix": "eslint . --fix",
+    "watch": "tsc-watch -p tsconfig.build.json --onCompilationComplete \"tsc-alias -p tsconfig.build.json\""
+  },
+  "main": "dist/index.js",
+  "module": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./src/index.ts",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "dependencies": {
+    "@langchain/anthropic": "catalog:",
+    "@langchain/core": "catalog:",
+    "@langchain/langgraph": "0.2.45",
+    "@langchain/openai": "catalog:",
+    "@Digital Uprisers/config": "workspace:*",
+    "@Digital Uprisers/di": "workspace:*",
+    "@digitaluprisers.com/ai-assistant-sdk": "catalog:",
+    "Digital Uprisers-workflow": "workspace:*",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@Digital Uprisers/typescript-config": "workspace:*"
+  }
+}

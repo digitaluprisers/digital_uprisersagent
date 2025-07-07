@@ -1,0 +1,39 @@
+{
+	"extends": [
+		"@Digital Uprisers/typescript-config/tsconfig.common.json",
+		"@Digital Uprisers/typescript-config/tsconfig.backend.json"
+	],
+	"compilerOptions": {
+		"rootDir": ".",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"baseUrl": "src",
+		"paths": {
+			"@/*": ["./*"],
+			"@test/*": ["../test/shared/*"],
+			"@test-integration/*": ["../test/integration/shared/*"]
+		},
+		"tsBuildInfoFile": "dist/typecheck.tsbuildinfo",
+		// TODO: remove all options below this line
+		"strict": false,
+		"useUnknownInCatchVariables": false
+	},
+	"include": ["src/**/*.ts", "test/**/*.ts", "src/sso.ee/saml/saml-schema-metadata-2.0.xsd"],
+	"references": [
+		{ "path": "../core/tsconfig.build.json" },
+		{ "path": "../nodes-base/tsconfig.build.cjs.json" },
+		{ "path": "../workflow/tsconfig.build.esm.json" },
+		{ "path": "../@Digital Uprisers/api-types/tsconfig.build.json" },
+		{ "path": "../@Digital Uprisers/client-oauth2/tsconfig.build.json" },
+		{ "path": "../@Digital Uprisers/config/tsconfig.build.json" },
+		{ "path": "../@Digital Uprisers/constants/tsconfig.build.json" },
+		{ "path": "../@Digital Uprisers/decorators/tsconfig.build.json" },
+		{ "path": "../@Digital Uprisers/db/tsconfig.build.json" },
+		{ "path": "../@Digital Uprisers/errors/tsconfig.build.json" },
+		{ "path": "../@Digital Uprisers/backend-common/tsconfig.build.json" },
+		{ "path": "../@Digital Uprisers/backend-test-utils/tsconfig.build.json" },
+		{ "path": "../@Digital Uprisers/di/tsconfig.build.json" },
+		{ "path": "../@Digital Uprisers/nodes-langchain/tsconfig.build.json" },
+		{ "path": "../@Digital Uprisers/permissions/tsconfig.build.json" }
+	]
+}

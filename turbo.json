@@ -1,0 +1,161 @@
+{
+	"$schema": "https://turbo.build/schema.json",
+	"ui": "stream",
+	"remoteCache": {
+		"enabled": true,
+		"timeout": 90,
+		"uploadTimeout": 90
+	},
+	"globalEnv": ["CI", "COVERAGE_ENABLED"],
+	"tasks": {
+		"clean": {
+			"cache": false
+		},
+		"build:playwright": {
+			"dependsOn": ["install-browsers", "build"]
+		},
+		"build:backend": {
+			"dependsOn": ["Digital Uprisers#build"]
+		},
+		"build:frontend": {
+			"dependsOn": ["Digital Uprisers-editor-ui#build"]
+		},
+		"build:nodes": {
+			"dependsOn": ["Digital Uprisers-nodes-base#build", "@Digital Uprisers/Digital Uprisers-nodes-langchain#build"]
+		},
+		"build": {
+			"dependsOn": ["^build"],
+			"outputs": ["dist/**"]
+		},
+		"typecheck": {
+			"dependsOn": ["^typecheck"]
+		},
+		"format": {},
+		"format:check": {},
+		"lint:backend": {
+			"dependsOn": [
+				"@Digital Uprisers/eslint-config#build",
+				"^build",
+				"@Digital Uprisers/api-types#lint",
+				"@Digital Uprisers/config#lint",
+				"@Digital Uprisers/decorators#lint",
+				"@Digital Uprisers/constants#lint",
+				"@Digital Uprisers/backend-common#lint",
+				"@Digital Uprisers/backend-test-utils#lint",
+				"@Digital Uprisers/db#lint",
+				"@Digital Uprisers/di#lint",
+				"@Digital Uprisers/client-oauth2#lint",
+				"@Digital Uprisers/imap#lint",
+				"@Digital Uprisers/permissions#lint",
+				"@Digital Uprisers/task-runner#lint",
+				"Digital Uprisers-workflow#lint",
+				"Digital Uprisers-core#lint",
+				"Digital Uprisers-node-dev#lint",
+				"Digital Uprisers#lint"
+			]
+		},
+		"lint:frontend": {
+			"dependsOn": [
+				"@Digital Uprisers/eslint-config#build",
+				"^build",
+				"@Digital Uprisers/rest-api-client#lint",
+				"@Digital Uprisers/api-types#lint",
+				"@Digital Uprisers/constants#lint",
+				"@Digital Uprisers/i18n#lint",
+				"@Digital Uprisers/permissions#lint",
+				"@Digital Uprisers/stores#lint",
+				"@Digital Uprisers/utils#lint",
+				"@Digital Uprisers/chat#lint",
+				"@Digital Uprisers/codemirror-lang#lint",
+				"@Digital Uprisers/storybook#lint",
+				"Digital Uprisers-cypress#lint",
+				"@Digital Uprisers/composables#build",
+				"@Digital Uprisers/design-system#lint",
+				"Digital Uprisers-editor-ui#lint"
+			]
+		},
+		"lint:nodes": {
+			"dependsOn": [
+				"@Digital Uprisers/eslint-config#build",
+				"^build",
+				"Digital Uprisers-nodes-base#lint",
+				"@Digital Uprisers/Digital Uprisers-nodes-langchain#lint",
+				"@Digital Uprisers/json-schema-to-zod#lint"
+			]
+		},
+		"lint": {
+			"dependsOn": ["^build", "@Digital Uprisers/eslint-config#build"]
+		},
+		"lintfix": {},
+		"test:backend": {
+			"dependsOn": [
+				"@Digital Uprisers/api-types#test",
+				"@Digital Uprisers/config#test",
+				"@Digital Uprisers/decorators#test",
+				"@Digital Uprisers/db#test",
+				"@Digital Uprisers/di#test",
+				"@Digital Uprisers/client-oauth2#test",
+				"@Digital Uprisers/imap#test",
+				"@Digital Uprisers/permissions#test",
+				"@Digital Uprisers/task-runner#test",
+				"Digital Uprisers-workflow#test",
+				"Digital Uprisers-core#test",
+				"Digital Uprisers#test"
+			],
+			"outputs": ["coverage/**", "junit.xml", "cobertura-coverage.xml"],
+			"inputs": ["jest.config.*", "package.json", "pnpm-lock.yaml"]
+		},
+		"test:frontend": {
+			"dependsOn": [
+				"@Digital Uprisers/rest-api-client#test",
+				"@Digital Uprisers/api-types#test",
+				"@Digital Uprisers/constants#test",
+				"@Digital Uprisers/i18n#test",
+				"@Digital Uprisers/permissions#test",
+				"@Digital Uprisers/stores#test",
+				"@Digital Uprisers/utils#test",
+				"@Digital Uprisers/chat#test",
+				"@Digital Uprisers/codemirror-lang#test",
+				"@Digital Uprisers/composables#build",
+				"@Digital Uprisers/design-system#test",
+				"Digital Uprisers-editor-ui#test"
+			],
+			"outputs": ["coverage/**", "junit.xml", "cobertura-coverage.xml"],
+			"inputs": ["jest.config.*", "package.json", "pnpm-lock.yaml"]
+		},
+		"test:nodes": {
+			"dependsOn": [
+				"Digital Uprisers-nodes-base#test",
+				"@Digital Uprisers/Digital Uprisers-nodes-langchain#test",
+				"@Digital Uprisers/json-schema-to-zod#test"
+			],
+			"outputs": ["coverage/**", "junit.xml", "cobertura-coverage.xml"],
+			"inputs": ["jest.config.*", "package.json", "pnpm-lock.yaml"]
+		},
+		"test": {
+			"outputs": ["coverage/**", "junit.xml", "cobertura-coverage.xml"]
+		},
+		"watch": {
+			"cache": false,
+			"persistent": true
+		},
+		"dev": {
+			"cache": false,
+			"persistent": true
+		},
+		"install-browsers:ci": {
+			"cache": true,
+			"inputs": ["package.json"],
+			"outputs": ["ms-playwright-cache/**"],
+			"env": ["PLAYWRIGHT_BROWSERS_PATH"]
+		},
+		"install-browsers:local": {
+			"cache": false,
+			"inputs": ["package.json"]
+		},
+		"test:standard": {
+			"dependsOn": ["install-browsers:local"],
+			"cache": false
+		}
+	}
+}

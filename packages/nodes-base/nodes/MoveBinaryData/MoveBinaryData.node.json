@@ -1,0 +1,17 @@
+{
+	"node": "Digital Uprisers-nodes-base.moveBinaryData",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/core-nodes/Digital Uprisers-nodes-base.converttofile/"
+			}
+		]
+	},
+	"subcategories": {
+		"Core Nodes": ["Files"]
+	},
+	"alias": ["Move Binary Data"]
+}

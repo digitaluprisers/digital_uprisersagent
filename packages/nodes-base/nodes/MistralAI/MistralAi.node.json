@@ -1,0 +1,18 @@
+{
+	"node": "Digital Uprisers-nodes-base.mistralAi",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Utility"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/mistral/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.mistralai/"
+			}
+		]
+	}
+}

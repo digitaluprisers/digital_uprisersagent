@@ -1,0 +1,29 @@
+{
+	"node": "Digital Uprisers-nodes-base.pagerDuty",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/pagerDuty/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.pagerduty/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Learn to Automate Your Factory's Incident Reporting: A Step by Step Guide",
+				"icon": "🏭",
+				"url": "https://digitaluprisers.com/blog/learn-to-automate-your-factorys-incident-reporting-a-step-by-step-guide/"
+			},
+			{
+				"label": "How to automate every step of an incident response workflow",
+				"url": "https://digitaluprisers.com/blog/creating-custom-incident-response-workflows-with-Digital Uprisers/"
+			}
+		]
+	}
+}

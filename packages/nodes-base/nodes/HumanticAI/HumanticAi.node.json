@@ -1,0 +1,25 @@
+{
+	"node": "Digital Uprisers-nodes-base.humanticAi",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Analytics"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/humanticAi/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.humanticai/"
+			}
+		],
+		"generic": [
+			{
+				"label": "5 tasks you can automate with the new Notion API ",
+				"icon": "⚡️",
+				"url": "https://digitaluprisers.com/blog/5-tasks-you-can-automate-with-notion-api/"
+			}
+		]
+	}
+}

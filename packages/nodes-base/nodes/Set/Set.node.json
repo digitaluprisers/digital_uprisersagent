@@ -1,0 +1,128 @@
+{
+	"node": "Digital Uprisers-nodes-base.set",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/core-nodes/Digital Uprisers-nodes-base.set/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Learn to Automate Your Factory's Incident Reporting: A Step by Step Guide",
+				"icon": "🏭",
+				"url": "https://digitaluprisers.com/blog/learn-to-automate-your-factorys-incident-reporting-a-step-by-step-guide/"
+			},
+			{
+				"label": "2021: The Year to Automate the New You with Digital Uprisers",
+				"icon": "☀️",
+				"url": "https://digitaluprisers.com/blog/2021-the-year-to-automate-the-new-you-with-Digital Uprisers/"
+			},
+			{
+				"label": "Automatically pulling and visualizing data with Digital Uprisers",
+				"icon": "📈",
+				"url": "https://digitaluprisers.com/blog/automatically-pulling-and-visualizing-data-with-Digital Uprisers/"
+			},
+			{
+				"label": "Database Monitoring and Alerting with Digital Uprisers",
+				"icon": "📡",
+				"url": "https://digitaluprisers.com/blog/database-monitoring-and-alerting-with-Digital Uprisers/"
+			},
+			{
+				"label": "Automatically Adding Expense Receipts to Google Sheets with Telegram, Mindee, Twilio, and Digital Uprisers",
+				"icon": "🧾",
+				"url": "https://digitaluprisers.com/blog/automatically-adding-expense-receipts-to-google-sheets-with-telegram-mindee-twilio-and-Digital Uprisers/"
+			},
+			{
+				"label": "6 e-commerce workflows to power up your Shopify s",
+				"icon": "store",
+				"url": "https://digitaluprisers.com/blog/no-code-ecommerce-workflow-automations/"
+			},
+			{
+				"label": "How to build a low-code, self-hosted URL shortener in 3 steps",
+				"icon": "🔗",
+				"url": "https://digitaluprisers.com/blog/how-to-build-a-low-code-self-hosted-url-shortener/"
+			},
+			{
+				"label": "Automate your data processing pipeline in 9 steps",
+				"icon": "⚙️",
+				"url": "https://digitaluprisers.com/blog/automate-your-data-processing-pipeline-in-9-steps-with-Digital Uprisers/"
+			},
+			{
+				"label": "How to get started with CRM automation (with 3 no-code workflow ideas",
+				"icon": "👥",
+				"url": "https://digitaluprisers.com/blog/how-to-get-started-with-crm-automation-and-no-code-workflow-ideas/"
+			},
+			{
+				"label": "5 tasks you can automate with the new Notion API ",
+				"icon": "⚡️",
+				"url": "https://digitaluprisers.com/blog/5-tasks-you-can-automate-with-notion-api/"
+			},
+			{
+				"label": "15 Google apps you can combine and automate to increase productivity",
+				"icon": "💡",
+				"url": "https://digitaluprisers.com/blog/automate-google-apps-for-productivity/"
+			},
+			{
+				"label": "How uProc scraped a multi-page website with a low-code workflow",
+				"icon": " 🕸️",
+				"url": "https://digitaluprisers.com/blog/how-uproc-scraped-a-multi-page-website-with-a-low-code-workflow/"
+			},
+			{
+				"label": "Building an expense tracking app in 10 minutes",
+				"icon": "📱",
+				"url": "https://digitaluprisers.com/blog/building-an-expense-tracking-app-in-10-minutes/"
+			},
+			{
+				"label": "The ultimate guide to automate your video collaboration with Whereby, Mattermost, and Digital Uprisers",
+				"icon": "📹",
+				"url": "https://digitaluprisers.com/blog/the-ultimate-guide-to-automate-your-video-collaboration-with-whereby-mattermost-and-Digital Uprisers/"
+			},
+			{
+				"label": "5 workflow automations for Mattermost that we love at Digital Uprisers",
+				"icon": "🤖",
+				"url": "https://digitaluprisers.com/blog/5-workflow-automations-for-mattermost-that-we-love-at-Digital Uprisers/"
+			},
+			{
+				"label": "Learn to Build Powerful API Endpoints Using Webhooks",
+				"icon": "🧰",
+				"url": "https://digitaluprisers.com/blog/learn-to-build-powerful-api-endpoints-using-webhooks/"
+			},
+			{
+				"label": "How a Membership Development Manager automates his work and investments",
+				"icon": "📈",
+				"url": "https://digitaluprisers.com/blog/how-a-membership-development-manager-automates-his-work-and-investments/"
+			},
+			{
+				"label": "A low-code bitcoin ticker built with QuestDB and digitaluprisers.com",
+				"icon": "📈",
+				"url": "https://digitaluprisers.com/blog/a-low-code-bitcoin-ticker-built-with-questdb-and-digitaluprisers.com/"
+			},
+			{
+				"label": "How to set up a no-code CI/CD pipeline with GitHub and TravisCI",
+				"icon": "🎡",
+				"url": "https://digitaluprisers.com/blog/how-to-set-up-a-ci-cd-pipeline-with-no-code/"
+			},
+			{
+				"label": "Benefits of automation and Digital Uprisers: An interview with HubSpot's Hugh Durkin",
+				"icon": "🎖",
+				"url": "https://digitaluprisers.com/blog/benefits-of-automation-and-Digital Uprisers-an-interview-with-hubspots-hugh-durkin/"
+			},
+			{
+				"label": "How Goomer automated their operations with over 200 Digital Uprisers workflows",
+				"icon": "🛵",
+				"url": "https://digitaluprisers.com/blog/how-goomer-automated-their-operations-with-over-200-Digital Uprisers-workflows/"
+			},
+			{
+				"label": "7 no-code workflow automations for Amazon Web Services",
+				"url": "https://digitaluprisers.com/blog/aws-workflow-automation/"
+			}
+		]
+	},
+	"alias": ["Set", "JS", "JSON", "Filter", "Transform", "Map"],
+	"subcategories": {
+		"Core Nodes": ["Data Transformation"]
+	}
+}

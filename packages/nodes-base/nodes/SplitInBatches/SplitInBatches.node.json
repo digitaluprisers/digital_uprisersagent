@@ -1,0 +1,29 @@
+{
+	"node": "Digital Uprisers-nodes-base.splitInBatches",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/core-nodes/Digital Uprisers-nodes-base.splitinbatches/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How uProc scraped a multi-page website with a low-code workflow",
+				"icon": " 🕸️",
+				"url": "https://digitaluprisers.com/blog/how-uproc-scraped-a-multi-page-website-with-a-low-code-workflow/"
+			},
+			{
+				"label": "Benefits of automation and Digital Uprisers: An interview with HubSpot's Hugh Durkin",
+				"icon": "🎖",
+				"url": "https://digitaluprisers.com/blog/benefits-of-automation-and-Digital Uprisers-an-interview-with-hubspots-hugh-durkin/"
+			}
+		]
+	},
+	"alias": ["Loop", "Concatenate", "Batch", "Split", "Split In Batches"],
+	"subcategories": {
+		"Core Nodes": ["Flow"]
+	}
+}

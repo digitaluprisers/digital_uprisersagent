@@ -1,0 +1,516 @@
+{
+  "createdAt": "2021-02-22T11:29:46.504Z",
+  "updatedAt": "2021-02-22T13:29:41.718Z",
+  "id": "56",
+  "name": "Trello:Board:*List:*Card:*Label:*CardComment:*Attachment:*CheckList:*",
+  "active": false,
+  "nodes": [
+    {
+      "parameters": {},
+      "name": "Start",
+      "type": "Digital Uprisers-nodes-base.start",
+      "typeVersion": 1,
+      "position": [
+        -580,
+        310
+      ],
+      "id": "60bc897d-49b0-41d9-9ecd-a241e69f23fd"
+    },
+    {
+      "parameters": {
+        "resource": "board",
+        "name": "TestBoard",
+        "description": "test qa board",
+        "additionalFields": {}
+      },
+      "name": "Trello",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        -300,
+        311
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "d9bb9631-be15-44b7-8962-15adb038513f"
+    },
+    {
+      "parameters": {
+        "resource": "board",
+        "operation": "update",
+        "id": "={{$node[\"Trello\"].json[\"id\"]}}",
+        "updateFields": {
+          "name": "UpatedTestBoard"
+        }
+      },
+      "name": "Trello1",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        2970,
+        301
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "5240d7bc-d9d5-465e-87d5-7d68513b0552"
+    },
+    {
+      "parameters": {
+        "resource": "board",
+        "operation": "get",
+        "id": "={{$node[\"Trello\"].json[\"id\"]}}",
+        "additionalFields": {}
+      },
+      "name": "Trello2",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        3120,
+        301
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "d7d28b3a-a2ec-4c45-aeab-ffd60fa7ed1c"
+    },
+    {
+      "parameters": {
+        "resource": "board",
+        "operation": "delete",
+        "id": "={{$node[\"Trello\"].json[\"id\"]}}"
+      },
+      "name": "Trello3",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        3270,
+        301
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "bfd73a34-44a6-4067-9e68-47f217a6e96a"
+    },
+    {
+      "parameters": {
+        "resource": "list",
+        "idBoard": "={{$node[\"Trello\"].json[\"id\"]}}",
+        "name": "To Test",
+        "additionalFields": {}
+      },
+      "name": "Trello4",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        -160,
+        411
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "f539269f-9813-4158-9cfb-3568adc2ad4a"
+    },
+    {
+      "parameters": {
+        "resource": "list",
+        "operation": "update",
+        "id": "={{$node[\"Trello4\"].json[\"id\"]}}",
+        "updateFields": {}
+      },
+      "name": "Trello5",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        -10,
+        411
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "6cc9eb56-e9ac-48bd-965f-61da503191f8"
+    },
+    {
+      "parameters": {
+        "resource": "list",
+        "operation": "get",
+        "id": "={{$node[\"Trello4\"].json[\"id\"]}}",
+        "additionalFields": {}
+      },
+      "name": "Trello6",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        140,
+        411
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "9ee41feb-6b2d-4b76-9e39-13a8a41553e6"
+    },
+    {
+      "parameters": {
+        "resource": "list",
+        "operation": "getAll",
+        "id": "={{$node[\"Trello\"].json[\"id\"]}}",
+        "limit": 1,
+        "additionalFields": {}
+      },
+      "name": "Trello7",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        290,
+        411
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "34c2e5be-9ae1-4212-991b-8099e11fedb1"
+    },
+    {
+      "parameters": {
+        "resource": "list",
+        "operation": "getCards",
+        "id": "={{$node[\"Trello4\"].json[\"id\"]}}",
+        "limit": 1,
+        "additionalFields": {}
+      },
+      "name": "Trello8",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        2550,
+        401
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "6ecf2b95-1431-4ca6-85da-a099c2152169"
+    },
+    {
+      "parameters": {
+        "resource": "list",
+        "operation": "archive",
+        "id": "={{$node[\"Trello4\"].json[\"id\"]}}"
+      },
+      "name": "Trello9",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        2840,
+        401
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "92cfc2ec-b2bb-4e00-afae-1a540903886a"
+    },
+    {
+      "parameters": {
+        "listId": "={{$node[\"Trello4\"].json[\"id\"]}}",
+        "name": "TestCard",
+        "description": "qa test card",
+        "additionalFields": {}
+      },
+      "name": "Trello10",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        430,
+        511
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "3ecf077b-90ae-484b-91f7-a134defb5a9b"
+    },
+    {
+      "parameters": {
+        "resource": "cardComment",
+        "cardId": "={{$node[\"Trello10\"].json[\"id\"]}}",
+        "text": "Test comment"
+      },
+      "name": "Trello11",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        590,
+        591
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "f60d1db5-08b7-47d3-8e87-c6d6db863400"
+    },
+    {
+      "parameters": {
+        "resource": "cardComment",
+        "operation": "update",
+        "cardId": "={{$node[\"Trello10\"].json[\"id\"]}}",
+        "commentId": "={{$node[\"Trello11\"].json[\"id\"]}}",
+        "text": "Updated comment"
+      },
+      "name": "Trello12",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        740,
+        591
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "b9b78d60-9ac7-47a7-a21d-91c0eea11529"
+    },
+    {
+      "parameters": {
+        "resource": "cardComment",
+        "operation": "delete",
+        "cardId": "={{$node[\"Trello10\"].json[\"id\"]}}",
+        "commentId": "={{$node[\"Trello11\"].json[\"id\"]}}"
+      },
+      "name": "Trello13",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        890,
+        591
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "ab58cd8f-6d9c-4d13-9061-e7075baa09a0"
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "id": "={{$node[\"Trello10\"].json[\"id\"]}}",
+        "updateFields": {
+          "name": "UpdateTestCard"
+        }
+      },
+      "name": "Trello14",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        2270,
+        501
+      ],
+      "alwaysOutputData": true,
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "4a02293e-8c77-4fec-96d4-b30ef8bef67d"
+    },
+    {
+      "parameters": {
+        "operation": "get",
+        "id": "={{$node[\"Trello10\"].json[\"id\"]}}",
+        "additionalFields": {}
+      },
+      "name": "Trello15",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        2410,
+        501
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "5f3eecb4-bdc3-41ee-8c08-6133996cfe6c"
+    },
+    {
+      "parameters": {
+        "operation": "delete",
+        "id": "={{$node[\"Trello10\"].json[\"id\"]}}"
+      },
+      "name": "Trello16",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        2700,
+        501
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "4b372bda-f6ba-4148-af60-7baa2750b199"
+    },
+    {
+      "parameters": {
+        "resource": "label",
+        "operation": "create",
+        "boardId": "={{$node[\"Trello\"].json[\"id\"]}}",
+        "name": "TestLabel",
+        "color": "blue"
+      },
+      "name": "Trello17",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        590,
+        431
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "00028ce8-a909-46b7-a39b-2893f039dfb4"
+    },
+    {
+      "parameters": {
+        "resource": "label",
+        "operation": "update",
+        "id": "={{$node[\"Trello17\"].json[\"id\"]}}",
+        "updateFields": {
+          "color": "orange"
+        }
+      },
+      "name": "Trello18",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        730,
+        431
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "4b45bec0-38ea-44fb-b8ce-2bdeb0111749"
+    },
+    {
+      "parameters": {
+        "resource": "label",
+        "boardId": "={{$node[\"Trello\"].json[\"id\"]}}",
+        "additionalFields": {}
+      },
+      "name": "Trello19",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        870,
+        431
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "a6d224e2-f55b-41a4-9682-27221a17946e"
+    },
+    {
+      "parameters": {
+        "resource": "checklist",
+        "operation": "create",
+        "cardId": "={{$node[\"Trello10\"].json[\"id\"]}}",
+        "name": "TestCheckList",
+        "additionalFields": {}
+      },
+      "name": "Trello20",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        590,
+        281
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "59a94a1d-eb67-48bc-82ea-065bd2ef4458"
+    },
+    {
+      "parameters": {
+        "resource": "checklist",
+        "operation": "createCheckItem",
+        "checklistId": "={{$node[\"Trello20\"].json[\"id\"]}}",
+        "name": "TestCheckListItem",
+        "additionalFields": {}
+      },
+      "name": "Trello21",
+      "type": "Digital Uprisers-nodes-base.trello",
+      "typeVersion": 1,
+      "position": [
+        740,
+        281
+      ],
+      "credentials": {
+        "trelloApi": {
+          "id": "41",
+          "name": "Trello creds"
+        }
+      },
+      "id": "1fd1b5e1-6029-4a2a-972e-43014d5fafc1"
+    },
+    {
+      "parameters": {
+        "resource": "checklist",
+        "operation": "updateCheckItem",
+        "cardId": "={{$node[\"Trello10\"].json[\"id\"]}}",
+        "checkItemId": "={{$node[\"Trello21\"].json[\"id\"]}}",
+        "additionalFields": {
+          "name": "UpdatedCheckListItem",
+   

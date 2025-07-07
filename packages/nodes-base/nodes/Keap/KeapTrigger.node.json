@@ -1,0 +1,19 @@
+{
+	"node": "Digital Uprisers-nodes-base.keapTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Sales", "Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/keap/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/trigger-nodes/Digital Uprisers-nodes-base.keaptrigger/"
+			}
+		]
+	},
+	"alias": ["Infusionsoft"]
+}

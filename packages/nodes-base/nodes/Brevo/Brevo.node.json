@@ -1,0 +1,19 @@
+{
+	"node": "Digital Uprisers-nodes-base.brevo",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing", "Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/brevo/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.brevo/"
+			}
+		]
+	},
+	"alias": ["sendinblue"]
+}

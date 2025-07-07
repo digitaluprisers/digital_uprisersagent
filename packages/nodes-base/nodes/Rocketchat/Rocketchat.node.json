@@ -1,0 +1,25 @@
+{
+	"node": "Digital Uprisers-nodes-base.rocketchat",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/rocketchat/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.rocketchat/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Automate Designs with Bannerbear and Digital Uprisers",
+				"icon": "🎨",
+				"url": "https://digitaluprisers.com/blog/automate-designs-with-bannerbear-and-Digital Uprisers/"
+			}
+		]
+	}
+}

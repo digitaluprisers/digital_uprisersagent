@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Feature request
+    url: https://community.digitaluprisers.com
+    about: Suggest an idea for this project
+  - name: Question / Problem
+    url: https://community.digitaluprisers.com
+    about: Questions and problems with Digital Uprisers
+  - name: Digital Uprisers Security Vulnerability
+    url: https://digitaluprisers.com/legal/#vulnerability
+    about: Learn about our Vulnerability Disclosure Policy

@@ -1,0 +1,19 @@
+{
+	"node": "Digital Uprisers-nodes-base.dhl",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Miscellaneous"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/dhl/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.dhl/"
+			}
+		]
+	},
+	"alias": ["Shipping"]
+}

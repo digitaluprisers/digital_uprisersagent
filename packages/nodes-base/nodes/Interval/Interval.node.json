@@ -1,0 +1,29 @@
+{
+	"node": "Digital Uprisers-nodes-base.interval",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/core-nodes/Digital Uprisers-nodes-base.interval/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Learn to Automate Your Factory's Incident Reporting: A Step by Step Guide",
+				"icon": "🏭",
+				"url": "https://digitaluprisers.com/blog/learn-to-automate-your-factorys-incident-reporting-a-step-by-step-guide/"
+			},
+			{
+				"label": "Creating triggers for Digital Uprisers workflows using polling",
+				"icon": "⏲",
+				"url": "https://digitaluprisers.com/blog/creating-triggers-for-Digital Uprisers-workflows-using-polling/"
+			}
+		]
+	},
+	"alias": ["Time", "Scheduler", "Polling"],
+	"subcategories": {
+		"Core Nodes": ["Flow", "Other Trigger Nodes"]
+	}
+}

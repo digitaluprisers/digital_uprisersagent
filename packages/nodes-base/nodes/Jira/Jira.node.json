@@ -1,0 +1,29 @@
+{
+	"node": "Digital Uprisers-nodes-base.jira",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Productivity"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/jira/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.jira/"
+			}
+		],
+		"generic": [
+			{
+				"label": "5 workflow automations for Mattermost that we love at Digital Uprisers",
+				"icon": "🤖",
+				"url": "https://digitaluprisers.com/blog/5-workflow-automations-for-mattermost-that-we-love-at-Digital Uprisers/"
+			},
+			{
+				"label": "How to automate every step of an incident response workflow",
+				"url": "https://digitaluprisers.com/blog/creating-custom-incident-response-workflows-with-Digital Uprisers/"
+			}
+		]
+	}
+}

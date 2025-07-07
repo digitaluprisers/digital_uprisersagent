@@ -1,0 +1,18 @@
+{
+	"node": "Digital Uprisers-nodes-base.facebookLeadAdsTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/credentials/facebookleadads/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/trigger-nodes/Digital Uprisers-nodes-base.facebookleadadstrigger/"
+			}
+		]
+	}
+}

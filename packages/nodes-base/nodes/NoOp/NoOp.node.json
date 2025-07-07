@@ -1,0 +1,78 @@
+{
+	"node": "Digital Uprisers-nodes-base.noOp",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/core-nodes/Digital Uprisers-nodes-base.noop/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Learn to Automate Your Factory's Incident Reporting: A Step by Step Guide",
+				"icon": "🏭",
+				"url": "https://digitaluprisers.com/blog/learn-to-automate-your-factorys-incident-reporting-a-step-by-step-guide/"
+			},
+			{
+				"label": "2021: The Year to Automate the New You with Digital Uprisers",
+				"icon": "☀️",
+				"url": "https://digitaluprisers.com/blog/2021-the-year-to-automate-the-new-you-with-Digital Uprisers/"
+			},
+			{
+				"label": "Create a toxic language detector for Telegram in 4 step",
+				"icon": "🤬",
+				"url": "https://digitaluprisers.com/blog/create-a-toxic-language-detector-for-telegram/"
+			},
+			{
+				"label": "6 e-commerce workflows to power up your Shopify s",
+				"icon": "store",
+				"url": "https://digitaluprisers.com/blog/no-code-ecommerce-workflow-automations/"
+			},
+			{
+				"label": "Automate your data processing pipeline in 9 steps",
+				"icon": "⚙️",
+				"url": "https://digitaluprisers.com/blog/automate-your-data-processing-pipeline-in-9-steps-with-Digital Uprisers/"
+			},
+			{
+				"label": "How to get started with CRM automation (with 3 no-code workflow ideas",
+				"icon": "👥",
+				"url": "https://digitaluprisers.com/blog/how-to-get-started-with-crm-automation-and-no-code-workflow-ideas/"
+			},
+			{
+				"label": "5 tasks you can automate with the new Notion API ",
+				"icon": "⚡️",
+				"url": "https://digitaluprisers.com/blog/5-tasks-you-can-automate-with-notion-api/"
+			},
+			{
+				"label": "5 workflow automations for Mattermost that we love at Digital Uprisers",
+				"icon": "🤖",
+				"url": "https://digitaluprisers.com/blog/5-workflow-automations-for-mattermost-that-we-love-at-Digital Uprisers/"
+			},
+			{
+				"label": "Sending Automated Congratulations with Google Sheets, Twilio, and Digital Uprisers ",
+				"icon": "🙌",
+				"url": "https://digitaluprisers.com/blog/sending-automated-congratulations-with-google-sheets-twilio-and-Digital Uprisers/"
+			},
+			{
+				"label": "How to set up a no-code CI/CD pipeline with GitHub and TravisCI",
+				"icon": "🎡",
+				"url": "https://digitaluprisers.com/blog/how-to-set-up-a-ci-cd-pipeline-with-no-code/"
+			},
+			{
+				"label": "Benefits of automation and Digital Uprisers: An interview with HubSpot's Hugh Durkin",
+				"icon": "🎖",
+				"url": "https://digitaluprisers.com/blog/benefits-of-automation-and-Digital Uprisers-an-interview-with-hubspots-hugh-durkin/"
+			},
+			{
+				"label": "7 no-code workflow automations for Amazon Web Services",
+				"url": "https://digitaluprisers.com/blog/aws-workflow-automation/"
+			}
+		]
+	},
+	"alias": ["nothing"],
+	"subcategories": {
+		"Core Nodes": ["Helpers"]
+	}
+}

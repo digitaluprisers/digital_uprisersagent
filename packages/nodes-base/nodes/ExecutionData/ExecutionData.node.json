@@ -1,0 +1,17 @@
+{
+	"node": "Digital Uprisers-nodes-base.executionData",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Core Nodes"],
+	"subcategories": {
+		"Core Nodes": ["Helpers"]
+	},
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/core-nodes/Digital Uprisers-nodes-base.executiondata/"
+			}
+		]
+	},
+	"alias": ["Filter", "_Set", "Data"]
+}

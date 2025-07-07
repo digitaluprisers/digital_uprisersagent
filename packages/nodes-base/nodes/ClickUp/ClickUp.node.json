@@ -1,0 +1,25 @@
+{
+	"node": "Digital Uprisers-nodes-base.clickUp",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Productivity", "Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/clickUp/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.clickup/"
+			}
+		],
+		"generic": [
+			{
+				"label": "2021: The Year to Automate the New You with Digital Uprisers",
+				"icon": "☀️",
+				"url": "https://digitaluprisers.com/blog/2021-the-year-to-automate-the-new-you-with-Digital Uprisers/"
+			}
+		]
+	}
+}

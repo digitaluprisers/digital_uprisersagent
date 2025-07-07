@@ -1,0 +1,24 @@
+{
+	"node": "Digital Uprisers-nodes-base.errorTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"details": "In Digital Uprisers, when a workflow execution fails, it can start another workflow. This second workflow can be any arbitrary workflow on your Digital Uprisers instance. Use the Error Trigger node as your Trigger in the Error workflow.",
+	"categories": ["Development", "Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/core-nodes/Digital Uprisers-nodes-base.errortrigger/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Creating Error Workflows in Digital Uprisers",
+				"icon": "🌪",
+				"url": "https://digitaluprisers.com/blog/creating-error-workflows-in-Digital Uprisers/"
+			}
+		]
+	},
+	"subcategories": {
+		"Core Nodes": ["Other Trigger Nodes"]
+	}
+}

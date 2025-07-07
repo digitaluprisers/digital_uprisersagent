@@ -1,0 +1,19 @@
+{
+	"node": "Digital Uprisers-nodes-base.ldap",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Developer Tools"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/ldap/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/core-nodes/Digital Uprisers-nodes-base.ldap/"
+			}
+		]
+	},
+	"alias": ["ad", "active directory"]
+}

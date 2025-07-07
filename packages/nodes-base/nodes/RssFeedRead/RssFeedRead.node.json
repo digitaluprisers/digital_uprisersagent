@@ -1,0 +1,25 @@
+{
+	"node": "Digital Uprisers-nodes-base.rssFeedRead",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/core-nodes/Digital Uprisers-nodes-base.rssfeedread/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Why business process automation with Digital Uprisers can change your daily life",
+				"icon": "🧬",
+				"url": "https://digitaluprisers.com/blog/why-business-process-automation-with-Digital Uprisers-can-change-your-daily-life/"
+			},
+			{
+				"label": "Why I chose Digital Uprisers over Zapier in 2020",
+				"icon": "😍",
+				"url": "https://digitaluprisers.com/blog/why-i-chose-Digital Uprisers-over-zapier-in-2020/"
+			}
+		]
+	}
+}

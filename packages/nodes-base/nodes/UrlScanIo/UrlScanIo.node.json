@@ -1,0 +1,19 @@
+{
+	"node": "Digital Uprisers-nodes-base.urlScanIo",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Utility"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/urlScanIo/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.urlscanio/"
+			}
+		]
+	},
+	"alias": ["Scrape"]
+}

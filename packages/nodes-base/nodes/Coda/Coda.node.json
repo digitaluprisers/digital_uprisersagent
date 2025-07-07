@@ -1,0 +1,25 @@
+{
+	"node": "Digital Uprisers-nodes-base.coda",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Productivity"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/coda/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.coda/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How Goomer automated their operations with over 200 Digital Uprisers workflows",
+				"icon": "🛵",
+				"url": "https://digitaluprisers.com/blog/how-goomer-automated-their-operations-with-over-200-Digital Uprisers-workflows/"
+			}
+		]
+	}
+}

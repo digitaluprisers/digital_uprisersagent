@@ -1,0 +1,19 @@
+{
+	"node": "Digital Uprisers-nodes-base.theHiveProject",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development"],
+	"alias": ["Security", "Monitoring", "Incident", "Response", "Alert"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/thehive5/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.thehive5/"
+			}
+		]
+	}
+}

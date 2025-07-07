@@ -1,0 +1,217 @@
+services:
+  mockapi:
+    image: wiremock/wiremock:3.9.1
+    ports:
+      - '8088:8080'
+    volumes:
+      - ${MOCK_API_DATA_PATH}/mappings:/home/wiremock/mappings
+
+  redis:
+    image: redis:6.2.14-alpine
+    restart: always
+    ports:
+      - 6379:6379
+    healthcheck:
+      test: ['CMD', 'redis-cli', 'ping']
+      interval: 1s
+      timeout: 3s
+
+  postgres:
+    image: postgres:16.4
+    restart: always
+    environment:
+      - POSTGRES_DB=Digital Uprisers
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+      - PGDATA=/var/lib/postgresql/data/pgdata
+    volumes:
+      - ${RUN_DIR}/postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U postgres']
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  Digital Uprisers_worker1:
+    image: ghcr.io/digitaluprisers.com/Digital Uprisers:${DIGITAL_UPRISERS_VERSION:-latest}
+    environment:
+      - DIGITAL_UPRISERS_DIAGNOSTICS_ENABLED=false
+      - DIGITAL_UPRISERS_USER_FOLDER=/Digital Uprisers/worker1
+      - DIGITAL_UPRISERS_ENCRYPTION_KEY=${DIGITAL_UPRISERS_ENCRYPTION_KEY}
+      - DIGITAL_UPRISERS_LICENSE_CERT=${DIGITAL_UPRISERS_LICENSE_CERT}
+      - DIGITAL_UPRISERS_LICENSE_ACTIVATION_KEY=${DIGITAL_UPRISERS_LICENSE_ACTIVATION_KEY}
+      - DIGITAL_UPRISERS_LICENSE_TENANT_ID=${DIGITAL_UPRISERS_LICENSE_TENANT_ID}
+      # Scaling mode config
+      - EXECUTIONS_MODE=queue
+      - QUEUE_BULL_REDIS_HOST=redis
+      - QUEUE_HEALTH_CHECK_ACTIVE=true
+      - DIGITAL_UPRISERS_CONCURRENCY_PRODUCTION_LIMIT=10
+      # DB config
+      - DB_TYPE=postgresdb
+      - DB_POSTGRESDB_HOST=postgres
+      - DB_POSTGRESDB_PASSWORD=password
+      # Task Runner config
+      - DIGITAL_UPRISERS_RUNNERS_ENABLED=true
+      - DIGITAL_UPRISERS_RUNNERS_MODE=internal
+      # Enable Insights
+      - DIGITAL_UPRISERS_ENABLED_MODULES=insights
+    command: worker
+    volumes:
+      - ${RUN_DIR}/Digital Uprisers-worker1:/Digital Uprisers
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ['CMD-SHELL', 'wget --spider -q http://localhost:5678/healthz || exit 1']
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  Digital Uprisers_worker2:
+    image: ghcr.io/digitaluprisers.com/Digital Uprisers:${DIGITAL_UPRISERS_VERSION:-latest}
+    environment:
+      - DIGITAL_UPRISERS_DIAGNOSTICS_ENABLED=false
+      - DIGITAL_UPRISERS_USER_FOLDER=/Digital Uprisers/worker2
+      - DIGITAL_UPRISERS_ENCRYPTION_KEY=${DIGITAL_UPRISERS_ENCRYPTION_KEY}
+      - DIGITAL_UPRISERS_LICENSE_CERT=${DIGITAL_UPRISERS_LICENSE_CERT}
+      - DIGITAL_UPRISERS_LICENSE_ACTIVATION_KEY=${DIGITAL_UPRISERS_LICENSE_ACTIVATION_KEY}
+      - DIGITAL_UPRISERS_LICENSE_TENANT_ID=${DIGITAL_UPRISERS_LICENSE_TENANT_ID}
+      # Scaling mode config
+      - EXECUTIONS_MODE=queue
+      - QUEUE_BULL_REDIS_HOST=redis
+      - QUEUE_HEALTH_CHECK_ACTIVE=true
+      - DIGITAL_UPRISERS_CONCURRENCY_PRODUCTION_LIMIT=10
+      # DB config
+      - DB_TYPE=postgresdb
+      - DB_POSTGRESDB_HOST=postgres
+      - DB_POSTGRESDB_PASSWORD=password
+      # Task Runner config
+      - DIGITAL_UPRISERS_RUNNERS_ENABLED=true
+      - DIGITAL_UPRISERS_RUNNERS_MODE=internal
+      # Enable Insights
+      - DIGITAL_UPRISERS_ENABLED_MODULES=insights
+    command: worker
+    volumes:
+      - ${RUN_DIR}/Digital Uprisers-worker2:/Digital Uprisers
+    depends_on:
+      # We let the worker 1 start first so it can run the DB migrations
+      Digital Uprisers_worker1:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ['CMD-SHELL', 'wget --spider -q http://localhost:5678/healthz || exit 1']
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  Digital Uprisers_main2:
+    image: ghcr.io/digitaluprisers.com/Digital Uprisers:${DIGITAL_UPRISERS_VERSION:-latest}
+    environment:
+      - DIGITAL_UPRISERS_DIAGNOSTICS_ENABLED=false
+      - DIGITAL_UPRISERS_USER_FOLDER=/Digital Uprisers
+      - DIGITAL_UPRISERS_ENCRYPTION_KEY=${DIGITAL_UPRISERS_ENCRYPTION_KEY}
+      - DIGITAL_UPRISERS_LICENSE_CERT=${DIGITAL_UPRISERS_LICENSE_CERT}
+      - DIGITAL_UPRISERS_LICENSE_ACTIVATION_KEY=${DIGITAL_UPRISERS_LICENSE_ACTIVATION_KEY}
+      - DIGITAL_UPRISERS_LICENSE_TENANT_ID=${DIGITAL_UPRISERS_LICENSE_TENANT_ID}
+      # Scaling mode config
+      - DIGITAL_UPRISERS_PROXY_HOPS=1
+      - EXECUTIONS_MODE=queue
+      - QUEUE_BULL_REDIS_HOST=redis
+      - DIGITAL_UPRISERS_MULTI_MAIN_SETUP_ENABLED=true
+      # DB config
+      - DB_TYPE=postgresdb
+      - DB_POSTGRESDB_HOST=postgres
+      - DB_POSTGRESDB_PASSWORD=password
+      # Task Runner config
+      - DIGITAL_UPRISERS_RUNNERS_ENABLED=true
+      - DIGITAL_UPRISERS_RUNNERS_MODE=internal
+      # Enable Insights
+      - DIGITAL_UPRISERS_ENABLED_MODULES=insights
+    volumes:
+      - ${RUN_DIR}/Digital Uprisers-main2:/Digital Uprisers
+    depends_on:
+      Digital Uprisers_worker1:
+        condition: service_healthy
+      Digital Uprisers_worker2:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      mockapi:
+        condition: service_started
+    healthcheck:
+      test: ['CMD-SHELL', 'wget --spider -q http://Digital Uprisers_main2:5678/healthz || exit 1']
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  Digital Uprisers_main1:
+    image: ghcr.io/digitaluprisers.com/Digital Uprisers:${DIGITAL_UPRISERS_VERSION:-latest}
+    environment:
+      - DIGITAL_UPRISERS_DIAGNOSTICS_ENABLED=false
+      - DIGITAL_UPRISERS_USER_FOLDER=/Digital Uprisers
+      - DIGITAL_UPRISERS_ENCRYPTION_KEY=${DIGITAL_UPRISERS_ENCRYPTION_KEY}
+      - DIGITAL_UPRISERS_LICENSE_CERT=${DIGITAL_UPRISERS_LICENSE_CERT}
+      - DIGITAL_UPRISERS_LICENSE_ACTIVATION_KEY=${DIGITAL_UPRISERS_LICENSE_ACTIVATION_KEY}
+      - DIGITAL_UPRISERS_LICENSE_TENANT_ID=${DIGITAL_UPRISERS_LICENSE_TENANT_ID}
+      # Scaling mode config
+      - DIGITAL_UPRISERS_PROXY_HOPS=1
+      - EXECUTIONS_MODE=queue
+      - QUEUE_BULL_REDIS_HOST=redis
+      - DIGITAL_UPRISERS_MULTI_MAIN_SETUP_ENABLED=true
+      # DB config
+      - DB_TYPE=postgresdb
+      - DB_POSTGRESDB_HOST=postgres
+      - DB_POSTGRESDB_PASSWORD=password
+      # Task Runner config
+      - DIGITAL_UPRISERS_RUNNERS_ENABLED=true
+      - DIGITAL_UPRISERS_RUNNERS_MODE=internal
+      # Enable Insights
+      - DIGITAL_UPRISERS_ENABLED_MODULES=insights
+    volumes:
+      - ${RUN_DIR}/Digital Uprisers-main1:/Digital Uprisers
+    depends_on:
+      Digital Uprisers_worker1:
+        condition: service_healthy
+      Digital Uprisers_worker2:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      mockapi:
+        condition: service_started
+    healthcheck:
+      test: ['CMD-SHELL', 'wget --spider -q http://Digital Uprisers_main1:5678/healthz || exit 1']
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  # Load balancer that acts as an entry point for Digital Uprisers
+  Digital Uprisers:
+    image: nginx:1.27.2
+    ports:
+      - '5678:80'
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      Digital Uprisers_main1:
+        condition: service_healthy
+      Digital Uprisers_main2:
+        condition: service_healthy
+
+  benchmark:
+    image: ghcr.io/digitaluprisers.com/Digital Uprisers-benchmark:${DIGITAL_UPRISERS_BENCHMARK_VERSION:-latest}
+    depends_on:
+      - Digital Uprisers
+    environment:
+      - DIGITAL_UPRISERS_BASE_URL=http://Digital Uprisers:80
+      - K6_API_TOKEN=${K6_API_TOKEN}
+      - BENCHMARK_RESULT_WEBHOOK_URL=${BENCHMARK_RESULT_WEBHOOK_URL}
+      - BENCHMARK_RESULT_WEBHOOK_AUTH_HEADER=${BENCHMARK_RESULT_WEBHOOK_AUTH_HEADER}

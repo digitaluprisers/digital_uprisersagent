@@ -1,0 +1,95 @@
+{
+	"node": "Digital Uprisers-nodes-base.googleSheets",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Data & Storage", "Productivity"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/google/oauth-single-service/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.googlesheets/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Love at first sight: Ricardo’s Digital Uprisers journey",
+				"icon": "❤️",
+				"url": "https://digitaluprisers.com/blog/love-at-first-sight-ricardos-Digital Uprisers-journey/"
+			},
+			{
+				"label": "Why business process automation with Digital Uprisers can change your daily life",
+				"icon": "🧬",
+				"url": "https://digitaluprisers.com/blog/why-business-process-automation-with-Digital Uprisers-can-change-your-daily-life/"
+			},
+			{
+				"label": "Automatically Adding Expense Receipts to Google Sheets with Telegram, Mindee, Twilio, and Digital Uprisers",
+				"icon": "🧾",
+				"url": "https://digitaluprisers.com/blog/automatically-adding-expense-receipts-to-google-sheets-with-telegram-mindee-twilio-and-Digital Uprisers/"
+			},
+			{
+				"label": "Supercharging your conference registration process with Digital Uprisers",
+				"icon": "🎫",
+				"url": "https://digitaluprisers.com/blog/supercharging-your-conference-registration-process-with-Digital Uprisers/"
+			},
+			{
+				"label": "Creating triggers for Digital Uprisers workflows using polling",
+				"icon": "⏲",
+				"url": "https://digitaluprisers.com/blog/creating-triggers-for-Digital Uprisers-workflows-using-polling/"
+			},
+			{
+				"label": "6 e-commerce workflows to power up your Shopify s",
+				"icon": "store",
+				"url": "https://digitaluprisers.com/blog/no-code-ecommerce-workflow-automations/"
+			},
+			{
+				"label": "Migrating Community Metrics to Orbit using Digital Uprisers",
+				"icon": "📈",
+				"url": "https://digitaluprisers.com/blog/migrating-community-metrics-to-orbit-using-Digital Uprisers/"
+			},
+			{
+				"label": "15 Google apps you can combine and automate to increase productivity",
+				"icon": "💡",
+				"url": "https://digitaluprisers.com/blog/automate-google-apps-for-productivity/"
+			},
+			{
+				"label": "Hey founders! Your business doesn't need you to operate",
+				"icon": " 🖥️",
+				"url": "https://digitaluprisers.com/blog/your-business-doesnt-need-you-to-operate/"
+			},
+			{
+				"label": "How Honest Burgers Use Automation to Save $100k per year",
+				"icon": "🍔",
+				"url": "https://digitaluprisers.com/blog/how-honest-burgers-use-automation-to-save-100k-per-year/"
+			},
+			{
+				"label": "How a digital strategist uses Digital Uprisers for online marketing",
+				"icon": "💻",
+				"url": "https://digitaluprisers.com/blog/how-a-digital-strategist-uses-Digital Uprisers-for-online-marketing/"
+			},
+			{
+				"label": "Why this Product Manager loves workflow automation with Digital Uprisers",
+				"icon": "🧠",
+				"url": "https://digitaluprisers.com/blog/why-this-product-manager-loves-workflow-automation-with-Digital Uprisers/"
+			},
+			{
+				"label": "Sending Automated Congratulations with Google Sheets, Twilio, and Digital Uprisers ",
+				"icon": "🙌",
+				"url": "https://digitaluprisers.com/blog/sending-automated-congratulations-with-google-sheets-twilio-and-Digital Uprisers/"
+			},
+			{
+				"label": "How a Membership Development Manager automates his work and investments",
+				"icon": "📈",
+				"url": "https://digitaluprisers.com/blog/how-a-membership-development-manager-automates-his-work-and-investments/"
+			},
+			{
+				"label": "7 no-code workflow automations for Amazon Web Services",
+				"url": "https://digitaluprisers.com/blog/aws-workflow-automation/"
+			}
+		]
+	},
+	"alias": ["CSV", "Sheet", "Spreadsheet", "GS"]
+}

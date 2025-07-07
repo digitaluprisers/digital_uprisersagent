@@ -1,0 +1,24 @@
+{
+	"node": "Digital Uprisers-nodes-base.spreadsheetFile",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Data & Storage", "Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/core-nodes/Digital Uprisers-nodes-base.converttofile/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Build your own virtual assistant with Digital Uprisers: A step by step guide",
+				"icon": "👦",
+				"url": "https://digitaluprisers.com/blog/build-your-own-virtual-assistant-with-Digital Uprisers-a-step-by-step-guide/"
+			}
+		]
+	},
+	"alias": ["_Excel", "Excel", "CSV", "Sheet", "Spreadsheet", "xls", "xlsx", "ods"],
+	"subcategories": {
+		"Core Nodes": ["Files"]
+	}
+}

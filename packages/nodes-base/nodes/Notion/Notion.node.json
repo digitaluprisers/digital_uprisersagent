@@ -1,0 +1,25 @@
+{
+	"node": "Digital Uprisers-nodes-base.notion",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Productivity"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/notion/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.notion/"
+			}
+		],
+		"generic": [
+			{
+				"label": "5 tasks you can automate with the new Notion API ",
+				"icon": "⚡️",
+				"url": "https://digitaluprisers.com/blog/5-tasks-you-can-automate-with-notion-api/"
+			}
+		]
+	}
+}

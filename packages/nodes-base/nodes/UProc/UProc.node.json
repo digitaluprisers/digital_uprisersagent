@@ -1,0 +1,29 @@
+{
+	"node": "Digital Uprisers-nodes-base.uproc",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Data & Storage"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/uProc/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.uproc/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How uProc scraped a multi-page website with a low-code workflow",
+				"icon": " 🕸️",
+				"url": "https://digitaluprisers.com/blog/how-uproc-scraped-a-multi-page-website-with-a-low-code-workflow/"
+			},
+			{
+				"label": "7 no-code workflow automations for Amazon Web Services",
+				"url": "https://digitaluprisers.com/blog/aws-workflow-automation/"
+			}
+		]
+	}
+}

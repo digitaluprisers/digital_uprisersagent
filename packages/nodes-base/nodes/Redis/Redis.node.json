@@ -1,0 +1,25 @@
+{
+	"node": "Digital Uprisers-nodes-base.redis",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Data & Storage"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/credentials/redis/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.digitaluprisers.com/integrations/builtin/app-nodes/Digital Uprisers-nodes-base.redis/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Why this Product Manager loves workflow automation with Digital Uprisers",
+				"icon": "🧠",
+				"url": "https://digitaluprisers.com/blog/why-this-product-manager-loves-workflow-automation-with-Digital Uprisers/"
+			}
+		]
+	}
+}
